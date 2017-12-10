@@ -1,24 +1,30 @@
-# README
+# Todo App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+***해야할 일*** 과 ***해야할 일 안에서 세부적으로 해야할 일*** 을 기록하고 정리할 수 있는 웹 애플리케이션
 
-Things you may want to cover:
+<br>
 
-* Ruby version
 
-* System dependencies
+## 개발 환경
 
-* Configuration
+- 언어 : Ruby 2.4.2
+- 프레임워크 : Rails 5.1.4
+- 에디터 : atom 1.22.1
 
-* Database creation
+<br>
 
-* Database initialization
+## 설명
+기본적인 일정을 관리할 수 있는 ```todo app```
 
-* How to run the test suite
+![앱 사진](https://i.imgur.com/X2m8blt.jpg)
 
-* Services (job queues, cache servers, search engines, etc.)
+* 리스트 추가 기능
+* 리스트에 세부적인 아이템 추가 기능
 
-* Deployment instructions
+<br>
 
-* ...
+## 추후 추가할 기능
+* 로그인을 통한 개인별 일정관리
+  * 페이스북, 트위터 등 SNS 로그인 기능
+  * devise 를 통한 이메일 로그인 기능
+* 다른 사람과 공유하기 기능
